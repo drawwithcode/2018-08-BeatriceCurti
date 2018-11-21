@@ -8,9 +8,9 @@ var value = 0;
   			frameRate(12);
 		}
 		function draw() {
-			c = color(map(rotationY,-90,90,1,width, 0, 360), 75, 100);
+			c = color(map(rotationY,0,180,1,width, 0, 360), 75, 100);
 			background(c);
-			b = color(map(rotationX,-90,90,1,width, 0, 360), 75, 100);
+			b = color(map(rotationX,0,180,1,width, 0, 360), 75, 100);
 			fill(b);
 			textSize(90);
 			textAlign(CENTER);
